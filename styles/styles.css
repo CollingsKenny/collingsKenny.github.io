@@ -1,0 +1,56 @@
+p,
+a,
+h1,
+h2,
+h3,
+ul {
+  margin: 0;
+}
+
+body {
+  padding: 1em;
+  width: 45em;
+  margin: auto;
+}
+
+p,
+a,
+li {
+  font-family: sans;
+}
+
+h1,
+h2,
+h3 {
+  font-family: serif;
+  margin-top: 1em;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+p,
+a,
+li {
+  font-size: 1em;
+}
+
+@media print {
+  body {
+    padding: 0;
+    width: 650px;
+  }
+  h1 {
+    margin-top: 0;
+  }
+}
